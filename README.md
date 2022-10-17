@@ -21,13 +21,14 @@ MySql 2.18.1
 views/partials/header.ejs
 views/partials/footer.ejs
 ```
-<img src="https://user-images.githubusercontent.com/94403406/196230171-13b97b76-4114-4664-b90c-a2254ad1de58.jpg" height="60px" width="60px" />
 #### HOME PAGE
 ```
 views/index.egs
 public/js/checkCart.js
 public/js/index-theday.js
 ```
+![091854](https://user-images.githubusercontent.com/94403406/196231901-9b6f46b6-b6f4-4190-8512-61d18f03e715.jpg)
+
 #### MENU PAGE
 ```
 views/menu.ejs
