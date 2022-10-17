@@ -27,7 +27,8 @@ views/index.egs
 public/js/checkCart.js
 public/js/index-theday.js
 ```
-![091854](https://user-images.githubusercontent.com/94403406/196231901-9b6f46b6-b6f4-4190-8512-61d18f03e715.jpg)
+
+![091854](https://user-images.githubusercontent.com/94403406/196232337-dfee808d-43ba-46d8-a5e1-a4e072eee845.jpg)
 
 #### MENU PAGE
 ```
