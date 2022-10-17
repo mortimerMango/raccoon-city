@@ -20,6 +20,7 @@ MySql 2.18.1
 ```
 views/partials/header.ejs
 views/partials/footer.ejs
+<img src="https://user-images.githubusercontent.com/94403406/196230171-13b97b76-4114-4664-b90c-a2254ad1de58.jpg" height="60" width="60" />
 ![091854](https://user-images.githubusercontent.com/94403406/196230171-13b97b76-4114-4664-b90c-a2254ad1de58.jpg)
 
 ```
