@@ -2,7 +2,7 @@
 
 ## Full Stack Web App incorporating Node JS, Express, and MySql to create a restaurant food ordering website. 
 
-### the Purpose of this project is to gain familiarirty with frontend and backend development using various technologies. 
+### The Purpose of this project is to gain familiarirty with frontend and backend development using various technologies. 
 
 #### This web api uses the Model View Controller structure. It uses Node JS, Express, EJS, Javascript, JQuery, Ajax, and Mysql.
 #### The api is configured for Mobile and Desktop only
