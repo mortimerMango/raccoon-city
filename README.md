@@ -7,7 +7,7 @@
 ## This web api uses the Model View Controller structure. It uses Node JS, Express, EJS, Javascript, JQuery, Ajax, and Mysql.
 ### The api is configured for Mobile and Desktop only
 
-## DEPENDENCIES:
+#### DEPENDENCIES:
 ```
 * Node JS 12.22.7
 * Express 4.18.2
@@ -17,9 +17,11 @@
 * MySql 2.18.1
 ```
 
-## MAIN BODY OF EVERY PAGE
-### views/partials/header.ejs
-### views/partials/footer.ejs
+#### MAIN BODY OF EVERY PAGE
+```
+ views/partials/header.ejs
+views/partials/footer.ejs
+```
 
 ## HOME PAGE
 ### views/index.egs
