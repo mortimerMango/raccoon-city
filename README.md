@@ -9,37 +9,44 @@
 
 #### DEPENDENCIES:
 ```
-* Node JS 12.22.7
-* Express 4.18.2
-* Express-ejs-layouts 2.5.1
-* ejs 3.1.8
-* Body-parsee 1.20.1
-* MySql 2.18.1
+Node JS 12.22.7
+Express 4.18.2
+Express-ejs-layouts 2.5.1
+ejs 3.1.8
+Body-parsee 1.20.1
+MySql 2.18.1
 ```
 
 #### MAIN BODY OF EVERY PAGE
 ```
- views/partials/header.ejs
+views/partials/header.ejs
 views/partials/footer.ejs
 ```
 
-## HOME PAGE
-### views/index.egs
-### public/js/checkCart.js
-### public/js/index-theday.js
+#### HOME PAGE
+```
+views/index.egs
+public/js/checkCart.js
+public/js/index-theday.js
+```
 
-## MENU PAGE
-### views/menu.ejs
-### public/js/menu-cart.js
+#### MENU PAGE
+```
+views/menu.ejs
+public/js/menu-cart.js
+```
 
-## ORDER PAGE
-### views/order.ejs
-### views/partials/item-card.ejs
-### views/partials/item-label.ejs
-### views/partials/place-order-form.ejs
-### views/partials/shipping_card.ejs
-### public/js/order-item.js
-
-## RECEIPT PAGE
-### views/receipt.ejs
-### public/js/receipt-post.js
+#### ORDER PAGE
+```
+views/order.ejs
+views/partials/item-card.ejs
+views/partials/item-label.ejs
+views/partials/place-order-form.ejs
+views/partials/shipping_card.ejs
+public/js/order-item.js
+```
+#### RECEIPT PAGE
+```
+views/receipt.ejs
+public/js/receipt-post.js
+```
