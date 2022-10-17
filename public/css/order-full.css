@@ -1,0 +1,409 @@
+#order_display{
+    width: 910px;
+    height: 910px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#banner {
+    width: 910px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+    #banner h3 {
+        width: 90%;
+        margin: 0px;
+        color: white;
+        text-decoration: solid;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        text-indent: 10%;
+    }
+
+    #banner a {
+        width: 10%;
+        height: 100%;
+        background-image: url('../img/back.png');
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        writing-mode: vertical-lr;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+    }
+
+#center_items {
+    width: 910px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px #E1E1E1;
+    margin: 0px 0px 25px 0px;
+}
+
+#item_container {
+    width: 275px;
+    height: 320px;
+    margin: 20px auto;
+    background-color: white;
+    border-bottom: solid 20px red;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 21px 20px -18px #670808;
+}
+
+#item_img {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    background-image: url("../img/lizard_bbq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: whitesmoke;
+}
+
+#item_count {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    float: right;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    margin-right: -13px;
+    margin-top: -13px;
+}
+
+    #item_count p {
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+        margin: 0px auto;
+    }
+
+#item_title {
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-radius: 5px 5px 0px 0px;
+}
+
+    #item_title h3 {
+        width: 100%;
+        margin: 0px;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+    }
+
+#item_desc_container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #292130;
+    border-radius: 0px 5px 5px 0px;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+#item_desc {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    border-top: solid 3px red;
+    border-bottom: solid 3px red;
+    border-right: solid 3px red;
+}
+
+    #item_desc p {
+        margin: 0px auto;
+        padding: 0px 10px 0px 10px;
+        color: black;
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 1.2em;
+    }
+
+#item_cost {
+    width: 22%;
+    height: 50px;
+    background-color: red;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    float: right;
+    border-left: solid 7px crimson;
+}
+    #item_cost p {
+        margin: 0px auto;
+        color: bisque;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+    }
+
+#item_container.insectivore {
+    border-bottom-color: #DD215C;
+}
+
+#item_container.carnivore {
+    border-bottom-color: #38BEFF;
+}
+
+#item_container.pescivore {
+    border-bottom-color: #FC6E2E;
+}
+/**
+#item_container.insectivore { border-bottom-color: #DD215C; }
+#item_count.insectivore {background-color: #DD215C; }
+#item_title.insectivore {background-color: #DD215C;}
+#item_desc.insectivore {
+    border-top-color: #DD215C;
+    border-right-color: #DD215C;
+    border-bottom-color: #DD215C;
+}
+#item_cost.insectivore {
+    background-color: #DD215C;
+    border-left-color: #be0202;
+}
+**/
+/** .insectivore #item_count { background-color: #DD215C; } **/
+
+
+
+#left_pane {
+    width: 45%;
+    min-height: 80%;
+    max-height: 80%;
+    background-color: #f4f0ec;
+    display: inline-block;
+    margin-left: auto;
+}
+
+    #left_pane h3 {
+        width: 100%;
+        margin: 5px 0px 0px 0px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+        text-indent: 10px;
+    }
+
+#total_items {
+    color: black;
+    margin: 0px 0px 5px 0px;
+    text-indent: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#summary_container {
+    width: 100%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 25px 0px 0px 0px;
+    background-color: white;
+    /**border-top: solid 3px #E1E1E1;**/
+    display: flex;
+    align-items: center;
+}
+
+#summary_items {
+    width: 65%;
+    height: 33px;
+    margin: 0px 0px 5px 10px;
+    display: inline-block;
+    border-left: solid 5px crimson;
+    border-radius: 3px 5px 5px 3px;
+    box-shadow: 1px 1px 2px #670808;
+}
+
+#summary_icon {
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(237, 0, 50, 0.6);
+    background-image: url("../img/pattern.png");
+    background-repeat: no-repeat;
+    background-size: 175%;
+    background-position: center;
+}
+
+#summary_desc {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    float: right;
+    display: flex;
+    align-items: center;
+    background-color: rgba(237, 0, 50, 0.6);
+    border-radius: 0px 5px 5px 0px;
+}
+
+    #summary_desc p {
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        text-indent: 5px;
+    }
+
+#shipping_container {
+    width: 25%;
+    height: 100px;
+    margin-right: 3%;
+    position: relative;
+    float: right;
+}
+
+#shipping_title {
+    width: 100%;
+    height: 20%;
+    background-color: #232b2b;
+    border-radius: 5px 5px 0px 0px;
+}
+
+    #shipping_title h4 {
+        margin: 0px auto;
+        color: white;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+#shipping_img {
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#left_arrow {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background-image: url('../img/shipping-chevron-left.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#right_arrow {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    background-image: url('../img/shipping-chevron-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#shipping_cost {
+    width: 100%;
+    height: 20%;
+    background-color: #232b2b;
+    display: inline-block;
+    border-radius: 0px 0px 5px 5px;
+}
+
+    #shipping_cost p {
+        margin: 0px auto;
+        color: white;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+#right_pane {
+    width: 30%;
+    height: 280px;
+    background-color: #232b2b;
+    display: inline-block;
+    margin-right: auto;
+}
+
+    #right_pane h3 {
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+        border-bottom: solid 2px #f4f0ec;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    #right_pane p {
+        width: 90%;
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0px auto;
+    }
+
+#order_form{
+    width: 100%;
+    height: 30%;
+}
+
+    #order_form hr {
+        width: 60%;
+        height: 1px;
+        border-radius: 15px;
+        background-color: #f4f0ec;
+        border: none;
+        margin: 5px auto;
+    }
+
+input[type="text"] {
+    width: 55%;
+    height: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    color: #f4f0ec;
+    border: none;
+    text-indent: 5px;
+    background-color: #232b2b;
+    border-left: solid 5px crimson;
+}
+
+    input[type="text"]:focus {
+        background-color: #384141;
+        outline: none;
+        border: none;
+        appearance: none;
+        border-left: solid 6px #ff0303;
+    }
+
+input[type="submit"] {
+    width: 70%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 0px auto;
+    background-color: crimson;
+    border-radius: 31px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: center;
+    cursor: pointer
+}

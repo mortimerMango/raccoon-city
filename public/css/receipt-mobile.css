@@ -1,0 +1,183 @@
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    #receipt_container {
+        width: 95%;
+        height: 80%;
+        margin: 10px auto;
+    }
+
+    #order_message {
+        width: 100%;
+        margin: 0px auto;
+        background-image: url('../img/qauntity.png');
+        background-repeat: no-repeat;
+        background-size: 55%;
+        background-position-x: -44%;
+        background-position-y: -5%;
+        background-color: black;
+    }
+
+        #order_message h3 {
+            width: 100%;
+            font-size: 7vw;
+            text-align: center;
+            margin: 10px auto;
+            color: white;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+    #order_icon {
+        width: 250px;
+        height: 200px;
+        margin: 0px auto;
+        background-image: url('../img/logo_2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90%;
+    }
+
+    #order_date {
+        width: 100%;
+        margin: 5px auto;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        text-indent: 0px;
+    }
+
+    #order_id {
+        width: 60%;
+        margin: 5px auto;
+        font-size: 5vw;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    #order_total_items {
+        width: 100%;
+        margin: 5px auto;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        text-indent: 0px;
+    }
+
+    #receipt_title {
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+        color: crimson;
+        border-bottom: 2px solid #E1E1E1;
+    }
+
+    #qty_title {
+        width: 10%;
+        margin: 0px 0px 5px 0px;
+        text-indent: 5px
+    }
+
+    #itm_title {
+        width: 75%;
+        margin: 0px;
+        text-indent: 10px;
+    }
+
+    #price_title {
+        width: 15%;
+        margin: 0px;
+        text-indent: -5px;
+    }
+
+    #receipt_items {
+        width: 100%;
+        margin: 0px auto;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        display: flex;
+    }
+
+    #qty {
+        width: 10%;
+        text-indent: 5px;
+        text-align: center;
+    }
+
+    #item {
+        width: 75%;
+        text-indent: 10px;
+    }
+
+    #price {
+        width: 15%;
+        text-indent: -15px;
+        text-align: center;
+    }
+
+    #delivery_title {
+        width: 100%;
+        margin: 0px auto;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+        color: white;
+        background-color: crimson;
+        text-indent: 5px;
+    }
+
+    #delivery_items {
+        width: 100%;
+        margin: 0px auto;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        background-color: whitesmoke;
+        display: flex;
+    }
+
+    #delivery_type {
+        width: 85%;
+        margin: 10px 0px 0px 0px;
+        text-indent: 5px;
+    }
+
+    #delivery_cost {
+        width: 15%;
+        text-align: center;
+        text-indent: -10px;
+    }
+
+    #total_container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #sum {
+        width: 20%;
+        position: relative;
+        float: right;
+    }
+
+        #sum h5 {
+            margin: 0px;
+            font-family: 'Permanent Marker', cursive;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            background-color: #232b2b;
+            font-size: 4vw;
+        }
+
+        #sum p {
+            margin: 0px 0px 10px 0px;
+            color: crimson;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+            font-weight: bold;
+        }
+
+}

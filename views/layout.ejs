@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><%- title %></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/header-full.css">
+		<link rel="stylesheet" href="css/header-mobile.css">
+		<link rel="stylesheet" href="css/index-full.css">
+		<link rel="stylesheet" href="css/index-mobile.css">
+		<link rel="stylesheet" href="css/menu-full.css">
+		<link rel="stylesheet" href="css/menu-mobile.css">
+		<link rel="stylesheet" href="css/order-full.css">
+		<link rel="stylesheet" href="css/order-mobile.css">
+		<link rel="stylesheet" href="css/receipt-full.css">
+		<link rel="stylesheet" href="css/receipt-mobile.css">
+		<link rel="stylesheet" href="css/footer-full.css">
+		<link rel="stylesheet" href="css/footer-mobile.css">
+		<!-- GIVE BTTER NAMES FOR THE JS FILES, MATCH THE PAGE IT GETS LOADED ON -->
+		<%- menuCart %>
+		<%- theday %>
+		<%- checkcart %>
+		<%- orderItem %>
+		<%- receiptPost %>
+	</head>
+	<body>
+		<%- include('partials/header.ejs') %>
+		<%- body %>
+		<%- include('partials/footer.ejs') %>
+		
+	</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "raccoon-city",
+  "version": "1.0.0",
+  "description": "RaccoonCity",
+  "main": "index.js",
+  "author": {
+    "name": "BGT"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

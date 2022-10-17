@@ -1,0 +1,257 @@
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+ 
+    #black_out {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.6;
+        display: none;
+        position: absolute;
+        z-index: 90;
+        top: 15%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #exp {
+        width: 200px;
+        height: unset;
+        border-radius: 0px 0px 3px 3px;
+        background-color: rgba(255, 245, 238, 0.95);
+        box-shadow: rgb(250, 82, 43) 4px 4px 0px;
+        border: none;
+        margin: 0px 0px 0px 0px;
+        position: relative;
+        right: 96px;
+        z-index: 100;
+        display: none;
+    }
+
+    #expnd {
+        width: 100%;
+        height: unset;
+        padding: 0px;
+        margin: 0px 0px 5px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select {
+        width: 90%;
+        height: 30px;
+        background-color: rgba(250,250,250, 0.5);
+        border-radius: 0px 5px 5px 5px;
+        margin: 5px auto;
+        text-indent: 10px;
+    }
+
+    #setup {
+        width: 60%;
+        height: 27px;
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        margin: 4px auto 0px auto;
+        list-style: none;
+        background-color: black;
+        border-radius: 18px;
+    }
+
+        #setup a {
+            color: white;
+            text-decoration: none;
+            font-size: 5vw;
+        }
+
+    input[type="button"] {
+        width: 16%;
+        height: 100%;
+        background-position: center;
+        background-image: url('../img/close-option.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+        input[type="button"]:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+    input[name="insc"] {
+        background-color: #DD215C;
+        border-color: #99123C;
+    }
+
+    input[name="carn"] {
+        background-color: #41A0E6;
+        border-color: #2482C5;
+    }
+
+    input[name="pesc"] {
+        background-color: #FC6E2E;
+        border-color: #B4400A;
+    }
+
+    /******CONTENTS**********/
+    #vegetarian, #carnivore, #pescivore {
+        width: 95%;
+        height: 25%;
+        margin: 0px auto;
+        display: flex;
+    }
+
+    #vegetarian {
+        padding: 15px 0px 10px 0px;
+        border-bottom: 2px solid #E1E1E1;
+    }
+
+    #carnivore {
+        padding: 10px 0px 10px 0px;
+        border-bottom: 2px solid #E1E1E1;
+    }
+
+    #pescivore {
+        padding: 10px 0px 15px 0px;
+        border: none;
+    }
+
+    #veg-con, #carn-con, #pesc-con {
+        width: 50%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-size: 95%;
+        background-position: center;
+        background-position-y: 10%;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    #veg-con {
+        background-image: url("../img/worm.png");
+    }
+
+    #carn-con {
+        background-image: url("../img/iguana.png");
+    }
+
+    #pesc-con {
+        background-image: url("../img/hermit-crab.png");
+    }
+
+    #veg-title, #carn-title, #pesc-title {
+        width: 100%;
+        height: 20%;
+        position: relative;
+        float: left;
+        top: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    h3 {
+        width: 100%;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 6vw;
+        text-align: right;
+        margin: 0px;
+        text-indent: 10px;
+    }
+
+    #veg-title {
+        color: coral;
+        background-image: linear-gradient(to right, rgba(221, 33, 92, 0.5), #DD215C);
+    }
+
+    #carn-title {
+        color: lightcyan;
+        background-image: linear-gradient(to right, rgba(56, 190, 255, 0.1), #38BEFF);
+    }
+
+    #pesc-title {
+        color: wheat;
+        background-image: linear-gradient(to right, rgba(252, 110, 56, 0.1), #FC6E2E);
+    }
+
+    #veg-con-dis, #carn-con-dis, #pesc-con-dis {
+        width: 50%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #veg-con-dis {
+        background-color: #DD215C;
+    }
+
+    #carn-con-dis {
+        background-color: #38BEFF;
+    }
+
+    #pesc-con-dis {
+        background-color: #FC6E2E;
+    }
+
+        #veg-con-dis p, #carn-con-dis p, #pesc-con-dis p {
+            width: 100%;
+            margin: 10px auto;
+            font-size: 5vw;
+            color: white;
+            text-align: center;
+           /** font-weight: bold; **/
+            font-family: 'Covered By Your Grace', cursive;
+        }
+
+
+    /*****************ADDED**********/
+
+    .button {
+        width: 100%;
+        padding: 3px;
+        position: relative;
+        border: none;
+        font-size: 5vw;
+        font-weight: bold;
+        font-family: 'Shadows Into Light', cursive;
+        color: #FFFFFF;
+        text-align: center;
+        transition-duration: 0.4s;
+        cursor: crosshair;
+    }
+
+        .button:after {
+            content: "";
+            background: azure;
+            display: block;
+            position: absolute;
+            padding-top: 60px;
+            padding-left: 100%;
+            margin-left: -3px !important;
+            margin-top: -55px;
+            opacity: 0;
+            transition: all 0.5s
+        }
+        /*****Lets do something with a on click listener JS*****/
+        .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s;
+        }
+
+    #vegetarian .button {
+        background-color: #D47575;
+    }
+
+    #carnivore .button {
+        background-color: #41A0E6;
+    }
+
+    #pescivore .button {
+        background-color: coral;
+    }
+}

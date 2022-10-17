@@ -1,0 +1,172 @@
+#receipt_container {
+    width: 500px;
+    height: 910px;
+    margin: 10px auto;
+    
+}
+
+#order_message {
+    width: 500px;
+    margin: 0px auto;
+    background-image: url('../img/qauntity.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: -44%;
+    background-position-y: 7%;
+    background-color: black;
+}
+
+    #order_message h3 {
+        width: 400px;
+        font-size: 30px;
+        text-align: center;
+        margin: 10px auto;
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+#order_icon {
+    width: 250px;
+    height: 200px;
+    margin: 0px auto;
+    background-image: url('../img/logo_2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+#order_id {
+    width: 250px;
+    margin: 5px auto;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#order_date {
+    width: 500px;
+    margin: 5px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-indent: 5px;
+}
+
+#order_total_items {
+    width: 500px;
+    margin: 5px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-indent: 5px;
+}
+
+#receipt_title {
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: crimson;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+#qty_title {
+    width: 50px;
+    margin: 0px 0px 5px 0px;
+    text-indent: 5px
+}
+
+#itm_title {
+    width: 450px;
+    margin: 0px;
+}
+
+#price_title {
+    width: 50px;
+    margin: 0px;
+    text-indent: -5px;
+}
+
+#receipt_items {
+    width: 500px;
+    margin: 0px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+#qty {
+    width: 50px;
+    text-indent: 5px;
+    text-align: center;
+}
+#item{
+    width: 450px;
+}
+#price {
+    width: 50px;
+    text-indent: -5px;
+    text-align: center;
+}
+
+#delivery_title {
+    width: 500px;
+    margin: 0px auto;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: white;
+    background-color: crimson;
+    text-indent: 5px;
+}
+
+#delivery_items {
+    width: 500px;
+    margin: 0px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+#delivery_type {
+    width: 450px;
+    margin: 10px 0px 0px 0px;
+    text-indent: 5px;
+}
+
+#delivery_cost {
+    width: 50px;
+    text-align: center;
+}
+
+#total_container{
+    width: 500px;
+    margin: 0px auto;
+}
+
+#sum{
+    width: 60px;
+    position: relative;
+    float: right;
+
+}
+
+    #sum h5 {
+        margin: 0px;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        background-color: #232b2b;
+        font-size: 1em;
+    }
+
+    #sum p {
+        margin: 0px 0px 10px 0px;
+        color: crimson;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+    }

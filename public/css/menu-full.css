@@ -1,0 +1,250 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#black_out {
+    width: 910px;
+    height: 1050px;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    z-index: 90;
+    top: 135px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#exp {
+    width: 200px;
+    height: 100%;
+    border-radius: 0px 0px 3px 3px;
+    background-color: rgba(255, 245, 238, 0.95);
+    box-shadow: rgb(250, 82, 43) 4px 4px 0px;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    right: 96px;
+    z-index: 100;
+    display: none;
+}
+
+#expnd {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    width: 90%;
+    height: 30px;
+    background-color: rgba(250,250,250, 0.5);
+    border-radius: 0px 5px 5px 5px;
+    margin: 5px auto;
+    text-indent: 10px;
+}
+
+#setup {
+    width: 100px;
+    height: 27px;
+    list-style: none;
+    background-color: black;
+    border-radius: 18px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    margin: 4px auto 0px auto;
+}
+
+    #setup a {
+        color: white;
+        text-decoration: none;
+    }
+
+input[type="button"] {
+    width: 30px;
+    height: 100%;
+    background-image: url('../img/close-option.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+    input[type="button"]:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+input[name="insc"] {
+    background-color: #DD215C;
+    border-color: #99123C;
+}
+
+input[name="carn"] {
+    background-color: #41A0E6;
+    border-color: #2482C5;
+}
+
+input[name="pesc"] {
+    background-color: #FC6E2E;
+    border-color: #B4400A;
+}
+
+/******CONTENTS**********/
+#vegetarian, #carnivore, #pescivore {
+    width: 910px;
+    display: flex;
+    margin: 0px auto;
+}
+
+#vegetarian {
+    padding: 15px 0px 10px 0px;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+#carnivore {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+#pescivore {
+    padding: 10px 0px 15px 0px;
+    border: none;
+}
+
+#veg-con, #carn-con, #pesc-con {
+    width: 637px;
+    height: 325px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#veg-con {
+    background-image: url("../img/worm.png");
+    background-size: 310px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#carn-con {
+    background-image: url("../img/iguana.png");
+    background-size: 362px;
+    background-repeat: no-repeat;
+    background-position-x: 116px;
+    background-position-y: -19px;
+}
+
+#pesc-con {
+    background-image: url("../img/hermit-crab.png");
+    background-size: 372px;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: -23px;
+}
+
+#veg-title, #carn-title, #pesc-title {
+    width: 310px;
+    height: 85px;
+    position: relative;
+    float: right;
+    top: 200px;
+    right: 0px;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    width: 300px;
+    font-size: 40px;
+}
+
+#veg-title {
+    color: coral;
+    background-image: linear-gradient(to right, rgba(221, 33, 92, 0.5), #DD215C);
+}
+
+#carn-title {
+    color: lightcyan;
+    background-image: linear-gradient(to right, rgba(56, 190, 255, 0.1), #38BEFF);
+}
+
+#pesc-title {
+    color: wheat;
+    background-image: linear-gradient(to right, rgba(252, 110, 56, 0.1), #FC6E2E);
+}
+
+#veg-con-dis, #carn-con-dis, #pesc-con-dis {
+    width: 273px;
+    color: white;
+    padding: 0px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 27px;
+    text-align: center;
+    /**font-weight: bold;**/
+}
+
+#veg-con-dis {
+    background-color: #DD215C;
+}
+
+#carn-con-dis {
+    background-color: #38BEFF;
+}
+
+#pesc-con-dis {
+    background-color: #FC6E2E;
+}
+
+.button {
+    width: 273px;
+    padding: 3px;
+    position: relative;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: #FFFFFF;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: crosshair;
+}
+
+    .button:after {
+        content: "";
+        background: azure;
+        display: block;
+        position: absolute;
+        padding-top: 60px;
+        padding-left: 273px;
+        margin-left: -3px !important;
+        margin-top: -55px;
+        opacity: 0;
+        transition: all 0.5s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+
+#vegetarian .button {
+    background-color: #D47575;
+}
+
+#carnivore .button {
+    background-color: #41A0E6;
+}
+
+#pescivore .button {
+    background-color: coral;
+}

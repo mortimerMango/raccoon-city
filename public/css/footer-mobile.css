@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+
+    #footer {
+        margin: 0 auto;
+        clear: both;
+        height: 5%;
+        width: 100%;
+    }
+
+    #footer-con {
+        height: 90%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px auto;
+        border-width: 3px 0px 3px 0px;
+        border-style: solid;
+        border-color: black;
+        background-image: url("../img/header.jpg");
+        background-size: 1000px;
+    }
+
+    #footer-lip {
+        height: 15%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px auto;
+        border-width: 0px 0px 3px 0px;
+        border-style: solid;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
+    #footer-lip p {
+        font-size: 7px;
+        margin: 0px;
+        text-indent: 5px;
+    }
+}

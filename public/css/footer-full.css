@@ -1,0 +1,36 @@
+#footer {
+    margin: 0 auto;
+    clear: both;
+    padding-bottom: 30px;
+    height: 125px;
+    width: 910px;
+}
+
+#footer-con {
+    height: 125px;
+    width: 910px;
+    padding: 0px;
+    margin: 0px auto;
+    border-width: 3px 0px 3px 0px;
+    border-style: solid;
+    border-color: black;
+    background-image: url("../img/header.jpg");
+}
+
+#footer-lip {
+    height: 10px;
+    width: 910px;
+    padding: 0px;
+    margin: 0px auto;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+    #footer-lip p {
+        font-size: 7px;
+        margin: 0px;
+    }

@@ -1,0 +1,31 @@
+<div id="order_display">
+	
+	<div id="banner">
+		<h3>Check Out</h3>
+		<a href="/menu">edit</a>
+	</div>
+	<div id="center_items">
+		<%- include('./partials/item-card.ejs') %>
+		
+	</div>
+
+	<div id="summary_container">
+		
+		<div id="left_pane">
+			<h3>Summary</h3>
+			<h4 id="total_items">Total Items: </h4>
+			<%- include('./partials/shipping-card.ejs') %>
+			<%- include('./partials/item-label.ejs') %>
+			<!-- Convert this into a partial -->
+				
+		</div>
+		<div id="right_pane">
+			<%- include('./partials/place-order-form.ejs') %>
+		</div>
+		
+	</div>
+		
+</div>
+<!--  LEFT OFF ON ADDING BACK BUTTON TO BANNER-->
+
+

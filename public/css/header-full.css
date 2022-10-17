@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+/** font-family: 'Covered By Your Grace', cursive; **/
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Permanent+Marker&display=swap');
+/** font-family: 'Permanent Marker', cursive; **/
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Shadows+Into+Light&display=swap');
+/** font-family: 'Shadows Into Light', cursive; **/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/**font-family: 'Quicksand', sans-serif;**/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/**font-family: 'Fredericka the Great', cursive;**/
+
+#header {
+    margin: 0 auto;
+    clear: both;
+    padding-top: 0px;
+    height: 135px;
+    width: 910px;
+    background-color: white;
+}
+
+#header-con {
+    height: 135px;
+    width: 910px;
+    padding: 0px;
+    margin: 0 auto;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: black;
+    background-image: url("../img/header.jpg");
+    background-position-y: 50%;
+    background-position-x: 49%;
+    position: relative;
+}
+
+#logo {
+    float: left;
+    width: 103px;
+    height: 133px;
+    margin-top: 1px;
+}
+
+#logo img {
+    width: 138px;
+    height: 138px;
+}
+
+#links {
+    float: left;
+    width: 100px;
+    height: 133px;
+    background-color: white;
+    margin: 1px auto;
+    position: relative;
+    left: 560px;
+}
+
+li {
+    list-style: none;
+    border: solid 2px black;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    margin-top: 22px;
+    z-index: 100;
+}
+
+    li a {
+        margin: 0px auto;
+        padding: 0px;
+        color: black;
+        font-family: 'Covered By Your Grace', cursive;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+#sign-in{
+    visibility: hidden;
+}
+
+#sign-in:hover {
+    background-color: aliceblue;
+    box-shadow: 4px 4px 0px #368DDA;
+    border-radius: 3px;
+}
+
+#indicator {
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/arrow-right.png');
+    background-size: 96%;
+    background-color: #000000;
+    display: none;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    display: none;
+}
+
+#cart:hover {
+    background-color: seashell;
+    box-shadow: 4px 4px 0px #FA522B;
+    border-radius: 3px;
+}
+
+#counter {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    right: 8px;
+}
+
+#counter p {
+    color: #DD215C;
+    margin: 0px;
+    position: relative;
+    bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+

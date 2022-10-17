@@ -1,0 +1,409 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin: auto;
+        width: 100%;
+        height: 900px !important;
+    }
+
+    #order_display {
+        width: 100%;
+        height: 80%;
+        background-color: white;
+        margin: 0px auto;
+        padding-top: 15px;
+    }
+
+    #banner {
+        width: 95%;
+        height: 4%;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+    }
+
+        #banner h3 {
+            width: 85%;
+            margin: 0%;
+            color: white;
+            text-decoration: solid;
+            font-family: 'Permanent Marker', cursive;
+            text-align: center;
+            font-size: 5vw;
+            text-indent: 15%;
+        }
+
+        #banner a {
+            width: 15%;
+            height: 100%;
+            background-image: url('../img/back.png');
+            background-size: 75%;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-color: rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            writing-mode: vertical-lr;
+            text-align: center;
+            color: white;
+            font-size: 13px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+        }
+        
+
+    #center_items {
+        width: 100%;
+        height: 50%;
+        display: block;
+        border-bottom: solid 3px #E1E1E1;
+        margin: 0px 0px 25px 0px;
+    }
+
+    #item_container {
+        width: 90%;
+        height: 25%;
+        margin: 10px auto;
+        background-color: white;
+        border-bottom: solid 15px red;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 0px 21px 20px -18px #670808;
+    }
+
+    #item_img {
+        width: 25%;
+        height: 100%;
+        background-color: white;
+        background-image: url("../img/lizard_bbq.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: whitesmoke;
+        position: relative;
+        float: left;
+    }
+
+    #item_count {
+        width: 20%;
+        height: 20%;
+        background-color: red;
+        border-radius: 100%;
+        position: relative;
+        float: right;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+        margin-right: 3%;
+        margin-top: 3%;
+    }
+
+        #item_count p {
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+            font-weight: bold;
+            margin: 0px auto;
+        }
+
+    #item_title {
+        width: 74%;
+        height: 20%;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        background-color: red;
+        border-radius: 0px 5px 0px 0px;
+        border-right: solid 2px red;
+    }
+
+        #item_title h3 {
+            width: 100%;
+            margin: 0px;
+            color: white;
+            font-family: 'Shadows Into Light', cursive;
+            text-align: center;
+            font-size: 4vw;
+            padding: 0px;
+            letter-spacing: 2px;
+        }
+
+    #item_desc_container {
+        width: 74%;
+        height: 65%;
+        margin: 1% 0% 0% 0%;
+        display: flex;
+        align-items: center;
+        background-color: #292130;
+        border-radius: 0px 0px 0px 0px;
+        border-top: solid 2px #292130;
+        border-bottom: solid 2px #292130;
+        border-right: solid 2px #292130;
+    }
+
+    #item_desc {
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        border-radius: 0px 5px 5px 0px;
+        border-top: solid 3px red;
+        border-bottom: solid 3px red;
+        border-right: solid 3px red;
+        display: flex;
+        align-items: center;
+    }
+
+        #item_desc p {
+            margin: 0px auto;
+            padding: 0px 10px 0px 10px;
+            color: black;
+            font-family: 'Covered By Your Grace', cursive;
+            font-size: 4.1vw;
+        }
+
+    #item_cost {
+        width: 16%;
+        height: 75%;
+        background-color: red;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+        float: right;
+        border-left: solid 7px crimson;
+    }
+
+        #item_cost p {
+            margin: 0px auto;
+            color: bisque;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 3.2vw;
+            text-align: center;
+        }
+
+    #left_pane {
+        width: 90%;
+        height: 50%;
+        min-height: 50%;
+        max-height: 50%;
+        background-color: #f4f0ec;
+        display: block;
+        margin: 2% auto 1% auto;
+    }
+
+        #left_pane h3 {
+            width: 100%;
+            margin: 5px 0px 0px 0px;
+            color: black;
+            font-weight: bold;
+            font-family: 'Quicksand', sans-serif;
+            text-indent: 5px;
+            text-align: left;
+            font-size: 5vw;
+        }
+
+    #total_items {
+        color: black;
+        font-family: 'Quicksand', sans-serif;
+        text-indent: 5px;
+        font-size: 3vw;
+    }
+
+    #summary_container {
+        width: 100%;
+        height: 45%;
+        margin: 0% auto;
+        padding: 0%;
+        background-color: white;
+        display: block;
+    }
+
+    #summary_items {
+        width: 71%;
+        height: 18%;
+        margin: 0% 0% 1% 1%;
+        display: inline-block;
+        border-left: solid 5px crimson;
+        border-radius: 3px 5px 5px 3px;
+        box-shadow: 1px 1px 2px #670808;
+    }
+
+    #summary_icon {
+        width: 10%;
+        height: 100%;
+        display: inline-block;
+        background-color: rgba(237, 0, 50, 0.6);
+        background-image: url("../img/pattern.png");
+        background-repeat: no-repeat;
+        background-size: 175%;
+        background-position: center;
+    }
+
+    #summary_desc {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        float: right;
+        display: flex;
+        align-items: center;
+        background-color: rgba(237, 0, 50, 0.6);
+        border-radius: 0px 5px 5px 0px;
+    }
+
+        #summary_desc p {
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            text-indent: 5px;
+            font-size: 3vw;
+        }
+
+    #shipping_container {
+        width: 24%;
+        height: 60%;
+        margin-right: 1%;
+        position: relative;
+        float: right;
+    }
+
+    #shipping_title {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        background-color: #232b2b;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+        #shipping_title h4 {
+            margin: 0px auto;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 13px;
+        }
+
+    #shipping_img {
+        width: 100%;
+        height: 60%;
+        background-color: white;
+    }
+
+    #left_arrow {
+        width: 20%;
+        height: 100%;
+        position: relative;
+        float: left;
+        cursor: pointer;
+        background-image: url('../img/shipping-chevron-left.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    #right_arrow {
+        width: 20%;
+        height: 100%;
+        position: relative;
+        float: right;
+        cursor: pointer;
+        background-image: url('../img/shipping-chevron-right.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    #shipping_cost {
+        width: 100%;
+        height: 20%;
+        background-color: #232b2b;
+        display: flex;
+        align-items: center;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+        #shipping_cost p {
+            margin: 0px auto;
+            color: white;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 13px;
+        }
+
+    #right_pane {
+        width: 95%;
+        height: 45%;
+        display: block;
+        background-color: #232b2b;
+        margin: 0px auto;
+    }
+
+        #right_pane h3 {
+            width: 100%;
+            margin: 0% 0% 0% 0%;
+            border-bottom: solid 2px #f4f0ec;
+            color: white;
+            font-size: 5vw;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        #right_pane p {
+            color: white;
+            width: 50%;
+            font-size: 3vw;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            margin: 0% auto;
+        }
+
+    #order_form {
+        width: 90%;
+        height: 80px;
+        margin: 0px auto;
+    }
+
+        #order_form hr {
+            width: 60%;
+            height: 2px;
+            margin: 3px 0px 0px 15px;
+            border-radius: 15px;
+            height: 2px;
+            background-color: #f4f0ec;
+            border: none;
+            text-align: left;
+        }
+
+    input[type="text"] {
+        width: 60%;
+        height: 20px;
+        display: block;
+        margin: 5px 0px 0px 5px;
+        color: #f4f0ec;
+        border: none;
+        text-indent: 5px;
+        background-color: #232b2b;
+        border-left: solid 5px crimson;
+        font-size: 4.5vw;
+    }
+
+        input[type="text"]:focus {
+            width: 60%;
+            height: 20px;
+        }
+
+    input[type="submit"] {
+        width: 35%;
+        height: 30px;
+        display: block;
+        margin: 0px 0px 0px 0px;
+        background-color: crimson;
+        border-radius: 31px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 5.5vw;
+        font-family: 'Covered By Your Grace', cursive;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        float: right;
+        bottom: 50%;
+        left: 3%;
+    }
+}
