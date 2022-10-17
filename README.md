@@ -8,12 +8,14 @@
 ### The api is configured for Mobile and Desktop only
 
 ### DEPENDENCIES:
-### Node JS 12.22.7
-### Express 4.18.2
-### Express-ejs-layouts 2.5.1
-### ejs 3.1.8
-### Body-parsee 1.20.1
-### MySql 2.18.1
+```
+# Node JS 12.22.7
+# Express 4.18.2
+# Express-ejs-layouts 2.5.1
+# ejs 3.1.8
+# Body-parsee 1.20.1
+# MySql 2.18.1
+```
 
 ## MAIN BODY OF EVERY PAGE
 ### views/partials/header.ejs
