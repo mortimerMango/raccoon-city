@@ -16,26 +16,24 @@ ejs 3.1.8
 Body-parsee 1.20.1
 MySql 2.18.1
 ```
-
 #### MAIN BODY OF EVERY PAGE
 ```
 views/partials/header.ejs
 views/partials/footer.ejs
-```
+![091854](https://user-images.githubusercontent.com/94403406/196230171-13b97b76-4114-4664-b90c-a2254ad1de58.jpg)
 
+```
 #### HOME PAGE
 ```
 views/index.egs
 public/js/checkCart.js
 public/js/index-theday.js
 ```
-
 #### MENU PAGE
 ```
 views/menu.ejs
 public/js/menu-cart.js
 ```
-
 #### ORDER PAGE
 ```
 views/order.ejs
