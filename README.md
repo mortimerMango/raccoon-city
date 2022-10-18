@@ -46,3 +46,10 @@ public/js/order-item.js
 views/receipt.ejs
 public/js/receipt-post.js
 ```
+
+#### MySQL
+```
+Execute orugasumu.sql to create Database
+```
+![orugasumu EER Diagram](https://user-images.githubusercontent.com/94403406/196510673-f6d4aa66-2c7e-4e30-b3ca-e1e864b25b1a.png)
+<img src="https://user-images.githubusercontent.com/94403406/196510673-f6d4aa66-2c7e-4e30-b3ca-e1e864b25b1a.png" style="height:50%; width=50%">
