@@ -52,8 +52,8 @@ public/js/receipt-post.js
 Execute orugasumu.sql to create Database
 ```
 <div align="center">
-  Database EER Diagram
-<img src="https://user-images.githubusercontent.com/94403406/196510673-f6d4aa66-2c7e-4e30-b3ca-e1e864b25b1a.png" style="height:300px; width=300px">
+  <h3>Database EER Diagram</h3>
+<img src="https://user-images.githubusercontent.com/94403406/196510673-f6d4aa66-2c7e-4e30-b3ca-e1e864b25b1a.png" style="height:400px; width:400px">
  </div>
 
 
