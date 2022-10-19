@@ -6,6 +6,7 @@
 
 #### This web api uses the Model View Controller structure. It uses Node JS, Express, EJS, Javascript, JQuery, Ajax, and Mysql.
 #### The api is configured for Mobile and Desktop only
+#### URL: http://www.orugasumu.com
 
 #### DEPENDENCIES:
 ```
@@ -13,7 +14,7 @@ Node JS 12.22.7
 Express 4.18.2
 Express-ejs-layouts 2.5.1
 ejs 3.1.8
-Body-parsee 1.20.1
+Body-parser 1.20.1
 MySql 2.18.1
 ```
 #### MAIN BODY OF EVERY PAGE
