@@ -6,9 +6,8 @@
 
 #### This web api uses the Model View Controller structure. It uses Node JS, Express, EJS, Javascript, JQuery, Ajax, and Mysql.
 #### The api is configured for Mobile and Desktop only
-<div align="left">
-<a href="http://www.orugasumu.com" target="_blank">orugasumu.com</a>
-</div>
+#### URL: http://www.orugasumu.com
+
 #### DEPENDENCIES:
 ```
 Node JS 12.22.7
