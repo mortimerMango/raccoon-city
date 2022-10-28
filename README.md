@@ -1,4 +1,4 @@
-# Raccoon-City <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="jquery" alt="jquery" width="40" height="40"/><img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg" title="jquery" alt="jquery" width="40" height="40"/><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="jquery" alt="jquery" width="40" height="40"/><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/> <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-plain-wordmark.svg" title="jquery" alt="jquery" width="40" height="40"/>
+# Raccoon-City <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="jquery" alt="jquery" width="60" height="60" align="center"/><img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg" title="jquery" alt="jquery" width="60" height="60" align="center"/><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="jquery" alt="jquery" width="60" height="60" align="center"/><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40" align="center"/> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40" align="center"/> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40" align="center"/> <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-plain-wordmark.svg" title="jquery" alt="jquery" width="40" height="40" align="center"/>
 
 ## Full Stack Web App incorporating Node JS, Express, and MySql to create a restaurant food ordering website. 
 
@@ -28,9 +28,9 @@ views/index.egs
 public/js/checkCart.js
 public/js/index-theday.js
 ```
-<div align="center" style="height: 300px;">
-    <img align="left" src="https://user-images.githubusercontent.com/94403406/198734690-ebb572eb-e46f-4b4c-893a-9cd7cb9bf768.png" style="width: 20%; height: 100%; max-width: 100%;margin-left: 15%;">
-    <img align="right" src="https://user-images.githubusercontent.com/94403406/198734758-6e012f8e-4c46-4e28-91dd-21e7eb7e405b.png" style="width: 15%; height: 100%; max-width: 100%;margin-right: 30%;">
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/94403406/198734690-ebb572eb-e46f-4b4c-893a-9cd7cb9bf768.png" style="float: left;" width="300">
+    <img src="https://user-images.githubusercontent.com/94403406/198734758-6e012f8e-4c46-4e28-91dd-21e7eb7e405b.png" style="float: left;" width="200">
 </div>
 
 #### MENU PAGE
@@ -38,6 +38,15 @@ public/js/index-theday.js
 views/menu.ejs
 public/js/menu-cart.js
 ```
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/94403406/198743911-40a8bf1b-a7ea-40f1-9136-6c9308018d7b.png" style="float: left;" width="300">
+    <img src="https://user-images.githubusercontent.com/94403406/198743963-d6b96971-23c5-48a5-b35f-f4ca97a7fa84.png" style="float: left;" width="300">
+</div>
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/94403406/198744012-77b14001-b27f-4d94-820c-398859fe08c6.png" style="float: left;" width="200">
+    <img src="https://user-images.githubusercontent.com/94403406/198744047-beea4eed-aaad-43dc-8ac9-50ab68acd8aa.png" style="float: left;" width="200">
+</div>
+
 #### ORDER PAGE
 ```
 views/order.ejs
@@ -47,11 +56,20 @@ views/partials/place-order-form.ejs
 views/partials/shipping_card.ejs
 public/js/order-item.js
 ```
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/94403406/198745552-8f863c24-3f47-401d-a96e-a5441664ee42.png" style="float: left;" width="300" height="390">
+    <img src="https://user-images.githubusercontent.com/94403406/198745562-c39d445d-a1f3-4274-817c-2fe6b6dd8f06.png" style="float: left;" width="200">
+</div>
+
 #### RECEIPT PAGE
 ```
 views/receipt.ejs
 public/js/receipt-post.js
 ```
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/94403406/198745965-f4c161d5-ea56-49ae-ac79-b67adda252e9.png" style="float: left;" width="300" height="390">
+    <img src="https://user-images.githubusercontent.com/94403406/198746304-6a302bec-ec1d-40b4-9f9a-cdfc4ad326fc.png" style="float: left;" width="200">
+</div>
 
 #### MySQL
 ```
