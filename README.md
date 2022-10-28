@@ -33,15 +33,10 @@ public/js/index-theday.js
 views/menu.ejs
 public/js/menu-cart.js
 ```
-<div align="center" style="width: 90%;height: 300px;margin: 0px auto;box-shadow: 0px 0px 14px -5px black;">
-  <div align="left" style="width:50%;">
-  <p>Desk Top View</p>
-    <img src="https://user-images.githubusercontent.com/94403406/198734690-ebb572eb-e46f-4b4c-893a-9cd7cb9bf768.png" style="width: 30%; height:40%;">
-  </div>
-  <div align="right" style="width:50%;">
-    <p>Mobile View</p>
-      <img src="https://user-images.githubusercontent.com/94403406/198734758-6e012f8e-4c46-4e28-91dd-21e7eb7e405b.png" style="width: 30%; height:40%;">
-  </div>
+<div align="center" style="width: 90%;">
+    <img align="left" src="https://user-images.githubusercontent.com/94403406/198734690-ebb572eb-e46f-4b4c-893a-9cd7cb9bf768.png" style="width: 30%; height:40%;">
+    <img align="right" src="https://user-images.githubusercontent.com/94403406/198734758-6e012f8e-4c46-4e28-91dd-21e7eb7e405b.png" style="width: 30%; height:40%;">
+
 </div>
 
 #### ORDER PAGE
