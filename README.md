@@ -28,9 +28,9 @@ views/index.egs
 public/js/checkCart.js
 public/js/index-theday.js
 ```
-<div align="center">
-    <img align="left" src="https://user-images.githubusercontent.com/94403406/198734690-ebb572eb-e46f-4b4c-893a-9cd7cb9bf768.png" style="width: 30%; height:40%;">
-    <img align="right" src="https://user-images.githubusercontent.com/94403406/198734758-6e012f8e-4c46-4e28-91dd-21e7eb7e405b.png" style="width: 30%; height:40%;">
+<div align="center" style="height: 300px;">
+    <img align="left" src="https://user-images.githubusercontent.com/94403406/198734690-ebb572eb-e46f-4b4c-893a-9cd7cb9bf768.png" style="width: 20%; height: 100%; max-width: 100%;margin-left: 15%;">
+    <img align="right" src="https://user-images.githubusercontent.com/94403406/198734758-6e012f8e-4c46-4e28-91dd-21e7eb7e405b.png" style="width: 15%; height: 100%; max-width: 100%;margin-right: 30%;">
 </div>
 
 #### MENU PAGE
